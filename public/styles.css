@@ -1,0 +1,176 @@
+/* Styles for Header and navbar - start */
+.header{
+    padding-left: 14.4%;
+    padding-right: 13%;
+    box-shadow: 1px 1px 5px #213d77;
+    position: sticky;
+    z-index: 500;
+    top:0;
+  
+    background-color: white;
+}
+
+.navbar-brand, .nav-link{
+      color:#213d77;
+      text-decoration: none;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #213d77;
+}
+
+.active {
+    border-bottom: 2px solid #213d77;
+}
+
+.login-button{
+    border: 0px;
+    color: white;
+    background-color: #213d77;
+    border-radius: 20px;
+    padding: 5px;
+    width: 75px;
+    font-size:14px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.profile-pic{
+    width: 35px;
+    height: 35px;
+    margin-left:15px;
+    position: relative;
+}
+
+.profile-popup{
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 1 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 10px;
+}
+/* Styles for Header and navbar - end  */
+
+
+/*Home Page Screen - start*/
+
+.home-screen {
+    background-image: url(./images/train_image.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 39.1rem;
+    display: flex; 
+   
+}
+
+
+
+.apply-window{
+  padding: 4rem;
+  width: 55%;
+  
+
+}
+.heading-window{
+   
+    width: 45%;
+    text-align: center;
+    padding-top: 13rem;
+    color: #aac1f3;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+   
+    
+    
+}
+
+.search-form{
+    background-color: white;
+    color: #213d77;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+}
+
+.centering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rotate90 {
+    transform: rotate(90deg);
+}
+
+.left-right{
+    background-color: #aac1f3;
+    padding: 0.5rem;
+    border-radius: 100%;
+   
+}
+
+.search-button{
+    background-color: #fb792b;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    color: white;
+}
+
+.station-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+  }
+
+  .list-group {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list-group-item {
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .to-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+  }
+
+  
+
+/*Home Page Screen - stop*/
